@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgba(20, 21, 27, 0.9490196078);
+  color: white;
+}
+
+#particles {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: -9999;
+  pointer-events: none;
+}
+
+.header {
+  margin-top: 5em;
+}
+
+.icon {
+  width: 30vh;
+  border: 1em solid;
+  border-radius: 50%;
+  border-color: rgba(134, 134, 134, 0.1);
+}
+
+h1 {
+  margin-top: 0.3em;
+  font-family: 'Poppins', sans-serif;
+}
+
+span {
+  font-size: 0.8em;
+  font-family: 'Roboto', serif;
+}
+
+.ico {
+  margin-top: 1em;
+  font-size: 1em;
+  letter-spacing: 1em;
+  color: #FFF;
+}
+
+a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+a:hover {
+  color: #FFF;
+}
+
+/*untuk layar device berukuran kecil*/
+@media screen and (min-width: 450px) {
+   .icon {
+     width: 30vh;
+   }
+}
+ 
+/*untuk layar device berukuran sedang*/
+@media screen and (min-width: 550px) {
+  .header {
+    margin-top: 20em;
+  }
+   .icon {
+     width: 25vh;
+     border: 3em solid;
+     border-color: rgba(134, 134, 134, 0.1);
+   }
+   h1 {
+  margin-top: 0.3em;
+  font-size: 4em;
+  font-family: 'Poppins', sans-serif;
+  }
+
+  span {
+  font-size: 2em;
+  font-family: 'Roboto', serif;
+  }
+
+  .ico {
+  margin-top: 1em;
+  font-size: 2em;
+  letter-spacing: 1em;
+  }
+}
+ 
+/*untuk layar device berukuran besar*/
+@media screen and (min-width: 800px) {
+   .header {
+    margin-top: 20em;
+  }
+   .icon {
+     width: 30vh;
+     border: 3em solid;
+     border-color: rgba(134, 134, 134, 0.1);
+   }
+   h1 {
+  margin-top: 0.3em;
+  font-size: 5em;
+  font-family: 'Poppins', sans-serif;
+  }
+
+  span {
+  font-size: 2em;
+  font-family: 'Roboto', serif;
+  }
+
+  .ico {
+  margin-top: 1em;
+  font-size: 2em;
+  letter-spacing: 1em;
+  }
+}
