@@ -35,7 +35,7 @@ body {
 
 .navigasi .menu {
   margin-left: auto;
-  margin-top: 1em;
+  margin-top: 1.4em;
 }
 
 .navigasi .menu a {
@@ -96,6 +96,66 @@ body {
 
 .hero .container .icon a:hover{
   color: #ca81f1;
+}
+
+/* Untuk layar kecil */
+@media screen and (min-width: 450px) {
+  .navigasi {
+  top:0;
+  background-color: ##0000ff;
+  margin-top: 0.1em;
+  display: flex;
+  padding: 1.5em;
+}
+
+.navigasi span {
+  font-size: 1.7em;
+  color: #FFF;
+}
+
+.navigasi .menu {
+  margin-left: auto;
+  margin-top: 1.4em;
+}
+
+.navigasi .menu a {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #FFF;
+}
+
+.container {
+  text-align: center;
+  margin-top: 5em;
+}
+
+.hero .container img {
+  width: 45%;
+  border: 1em solid;
+  border-color: rgba(134, 134, 134, 0.1);
+  border-radius: 50%;
+}
+
+.hero .container h1 {
+  color: #FFF;
+  font-size: 2.5em;
+  line-height: 1.5em;
+  letter-spacing: 2px;
+}
+
+.hero .container p {
+  color: #FFF;
+  line-height: 0.5;
+  font-size: 1em;
+  letter-spacing: 2px;
+}
+
+.hero .container .icon {
+  color: #FFF;
+  margin-top: 0.8em;
+  letter-spacing: 20px;
+  font-size: 1em;
+}
 }
 
 /*untuk layar device berukuran sedang*/
