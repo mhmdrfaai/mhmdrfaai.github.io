@@ -4,8 +4,8 @@
 }
 
 body {
-  background-color: rgba(20, 21, 27, 0.9490196078);
-  color: white;
+  background-color: #090A18;
+  font-family: "Alkatra";
 }
 
 #particles {
@@ -16,102 +16,222 @@ body {
   pointer-events: none;
 }
 
-.header {
-  margin-top: 5em;
+.navigasi {
+  top:0;
+  background-color: ##0000ff;
+  margin-top: 0.1em;
+  display: flex;
+  padding: 1.5em;
 }
 
-.icon {
-  width: 30vh;
-  border: 1em solid;
-  border-radius: 50%;
-  border-color: rgba(134, 134, 134, 0.1);
-}
-
-h1 {
-  margin-top: 0.3em;
-  font-family: 'Poppins', sans-serif;
-}
-
-span {
-  font-size: 0.8em;
-  font-family: 'Roboto', serif;
-}
-
-.ico {
-  margin-top: 1em;
-  font-size: 0.7em;
-  letter-spacing: 1em;
+.navigasi span {
+  font-size: 1.7em;
   color: #FFF;
 }
 
-a {
+.navigasi span .co {
+  color: #ca81f1;
+}
+
+.navigasi .menu {
+  margin-left: auto;
+  margin-top: 1.4em;
+}
+
+.navigasi .menu a {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #FFF;
+}
+
+.navigasi .menu a:hover {
+  color: #ca81f1;
+}
+
+.hero {
+  justify-content: center;
+}
+
+.container {
+  text-align: center;
+  margin-top: 5em;
+}
+
+.hero .container img {
+  width: 45%;
+  border: 1em solid;
+  border-color: rgba(134, 134, 134, 0.1);
+  border-radius: 50%;
+}
+
+.hero .container h1 {
+  color: #FFF;
+  font-size: 2.5em;
+  line-height: 1.5em;
+  letter-spacing: 2px;
+}
+
+.hero .container span {
+  color: #ca81f1;
+}
+
+.hero .container p {
+  color: #FFF;
+  line-height: 0.5;
+  font-size: 1em;
+  letter-spacing: 2px;
+}
+
+.hero .container .icon {
+  color: #FFF;
+  margin-top: 0.8em;
+  letter-spacing: 20px;
+  font-size: 1em;
+}
+
+.hero .container .icon a{
   text-decoration: none;
   color: #FFF;
 }
 
-a:hover {
+.hero .container .icon a:hover{
+  color: #ca81f1;
+}
+
+/*untuk layar device berukuran sedang*/
+@media screen and (min-width: 550px) {
+  .navigasi {
+  top:0;
+  background-color: #00000ff;
+  margin-top: -2em;
+  display: flex;
+  padding: 4em;
+}
+
+.navigasi span {
+  font-size: 4em;
   color: #FFF;
 }
 
-/*untuk layar device berukuran kecil*/
-@media screen and (min-width: 450px) {
-   .icon {
-     width: 30vh;
-   }
-}
- 
-/*untuk layar device berukuran sedang*/
-@media screen and (min-width: 550px) {
-  .header {
-    margin-top: 20em;
-  }
-   .icon {
-     width: 25vh;
-     border: 3em solid;
-     border-color: rgba(134, 134, 134, 0.1);
-   }
-   h1 {
-  margin-top: 0.3em;
-  font-size: 4em;
-  font-family: 'Poppins', sans-serif;
-  }
-
-  span {
+.navigasi span .co {
+  color: #ca81f1;
   font-size: 2em;
-  font-family: 'Roboto', serif;
-  }
-
-  .ico {
-  margin-top: 1em;
-  font-size: 2em;
-  letter-spacing: 1em;
-  }
 }
- 
-/*untuk layar device berukuran besar*/
+
+.navigasi .menu {
+  margin-left: auto;
+  margin-top: 5.3em;
+}
+
+.navigasi .menu a {
+  text-decoration: none;
+  font-size: 3em;
+  color: #FFF;
+}
+
+.container {
+  text-align: center;
+  margin-top: 8em;
+}
+
+.hero .container img {
+  width: 45%;
+  border: 3em solid;
+  border-color: rgba(134, 134, 134, 0.1);
+  border-radius: 50%;
+}
+
+.hero .container h1 {
+  color: #FFF;
+  font-size: 6em;
+  line-height: 1.5em;
+  letter-spacing: 2px;
+}
+
+.hero .container span {
+  color: #ca81f1;
+}
+
+.hero .container p {
+  color: #FFF;
+  line-height: 0.2;
+  font-size: 2.5em;
+  letter-spacing: 3px;
+}
+
+.hero .container .icon {
+  color: #FFF;
+  margin-top: 0.8em;
+  letter-spacing: 40px;
+  font-size: 2.5em;
+}
+}
+
+/*untuk layar device berukuran besqr*/
 @media screen and (min-width: 800px) {
-   .header {
-    margin-top: 20em;
-  }
-   .icon {
-     width: 30vh;
-     border: 3em solid;
-     border-color: rgba(134, 134, 134, 0.1);
-   }
-   h1 {
-  margin-top: 0.3em;
-  font-size: 5em;
-  font-family: 'Poppins', sans-serif;
-  }
+.navigasi {
+  top:0;
+  background-color: #00000ff;
+  margin-top: -2em;
+  display: flex;
+  padding: 4em;
+}
 
-  span {
-  font-size: 2em;
-  font-family: 'Roboto', serif;
-  }
+.navigasi span {
+  font-size: 4em;
+  color: #FFF;
+}
 
-  .ico {
-  margin-top: 1em;
+.navigasi span .co {
+  color: #ca81f1;
   font-size: 2em;
-  letter-spacing: 1em;
-  }
+}
+
+.navigasi .menu {
+  margin-left: auto;
+  margin-top: 5.3em;
+}
+
+.navigasi .menu a {
+  text-decoration: none;
+  font-size: 3em;
+  color: #FFF;
+}
+
+.container {
+  text-align: center;
+  margin-top: 8em;
+}
+
+.hero .container img {
+  width: 45%;
+  border: 3em solid;
+  border-color: rgba(134, 134, 134, 0.1);
+  border-radius: 50%;
+}
+
+.hero .container h1 {
+  color: #FFF;
+  font-size: 6em;
+  line-height: 1.5em;
+  letter-spacing: 2px;
+}
+
+.hero .container span {
+  color: #ca81f1;
+}
+
+.hero .container p {
+  color: #FFF;
+  line-height: 0.2;
+  font-size: 2.5em;
+  letter-spacing: 3px;
+}
+
+.hero .container .icon {
+  color: #FFF;
+  margin-top: 0.8em;
+  letter-spacing: 40px;
+  font-size: 2.5em;
+}
 }
